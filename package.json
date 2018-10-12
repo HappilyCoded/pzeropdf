@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "A project to download issues from the the Google Project Zero's bug tracker. Converts issues to PDF file and downloads the attachments to ./attachments folder.",
   "main": "./dist/Main.js",
+  "types": "./dist/Main.d.ts",
   "scripts": {
     "build": "rm -rf ./dist && ./node_modules/.bin/tsc "
   },
