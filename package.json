@@ -5,7 +5,8 @@
   "main": "./dist/Main.js",
   "types": "./dist/Main.d.ts",
   "scripts": {
-    "build": "rm -rf ./dist && ./node_modules/.bin/tsc "
+    "build": "rm -rf ./dist && ./node_modules/.bin/tsc ",
+    "publish": "npm run build && npm run publish"
   },
   "bin": {
     "pzeropdf": "./dist/Main.js"
