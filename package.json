@@ -4,13 +4,22 @@
   "description": "A project to download issues from the the Google Project Zero's bug tracker. Converts issues to PDF file and downloads the attachments to ./attachments folder.",
   "main": "./dist/Main.js",
   "types": "./dist/Main.d.ts",
+  "private": false,
   "scripts": {
-    "build": "rm -rf ./dist && ./node_modules/.bin/tsc ",
-    "publish": "npm run build && npm run publish"
+    "build": "rm -rf ./dist && ./node_modules/.bin/tsc",
+    "prepare" : "npm run build"
   },
   "bin": {
     "pzeropdf": "./dist/Main.js"
   },
+  "homepage": "https://github.com/HappilyCoded/pzeropdf",
+  "keywords": [
+    "security",
+    "zeroday",
+    "project-zero",
+    "security-tools",
+    "happilycoded"
+  ],
   "author": "HappilyCoded",
   "license": "MIT",
   "dependencies": {
