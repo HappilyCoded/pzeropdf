@@ -1,0 +1,25 @@
+{
+  "name": "pzeropdf",
+  "version": "0.0.1",
+  "description": "A project to download issues from the the Google Project Zero's bug tracker. Converts issues to PDF file and downloads the attachments to ./attachments folder.",
+  "main": "./dist/Main.js",
+  "scripts": {
+    "build": "rm -rf ./dist && ./node_modules/.bin/tsc "
+  },
+  "bin": {
+    "pzeropdf": "./dist/Main.js"
+  },
+  "author": "HappilyCoded",
+  "license": "MIT",
+  "dependencies": {
+    "minimist": "^1.2.0",
+    "node-fetch": "^2.2.0",
+    "puppeteer": "^1.9.0",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "@types/node": "^10.11.7",
+    "@types/node-fetch": "^2.1.2",
+    "typescript": "^3.1.3"
+  }
+}

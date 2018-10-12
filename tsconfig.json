@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "baseUrl": "./src",
+    "target": "esnext",
+    "declaration": true,
+    "types": [
+        "node"
+    ],
+    "noImplicitAny": false,
+    "outDir": "./dist"
+      
+  },
+  "include": [
+    "src/**/*"
+  ]
+}
