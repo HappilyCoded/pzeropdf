@@ -6,7 +6,7 @@
 
 ```
 -> Installation:
-    hc@d3n:~/D/P/google-pzero> npm install pzeropdf
+    hc@d3n:~/D/P/google-pzero> npm install pzeropdf -g
 
 -> To download a particular issue
     hc@d3n:~/D/P/google-pzero> pzeropdf -i "https://bugs.chromium.org/p/project-zero/issues/detail?id=1556&desc=4"
