@@ -17,7 +17,8 @@
 
 # Credits:
 	
-	- Google Project Zero, mahalo :heart_eyes: :heart_eyes: ¯\_(^▾^)_/¯
+	- Google Project Zero, 
+mahalo :heart_eyes: :heart_eyes: `¯\_(^▾^)_/¯`
 
 # Developement
 
