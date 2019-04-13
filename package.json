@@ -6,8 +6,10 @@
   "types": "./dist/Main.d.ts",
   "private": false,
   "scripts": {
-    "build": "rm -rf ./dist && ./node_modules/.bin/tsc",
-    "prepare" : "npm run build"
+    "build": "rm -rf ./dist && npx tsc && yarn copy:packageinfo",
+    "prepare": "npm run build",
+    "copy:packageinfo": "cp package.json ./dist",
+    "run:publish": "rm -rf ./dist && yarn build && cd ./dist && npm publish"
   },
   "bin": {
     "pzeropdf": "./dist/Main.js"
@@ -31,6 +33,7 @@
   "devDependencies": {
     "@types/node": "^10.11.7",
     "@types/node-fetch": "^2.1.2",
+    "@types/puppeteer": "^1.12.3",
     "typescript": "^3.1.3"
   }
 }
